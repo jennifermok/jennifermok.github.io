@@ -9,7 +9,15 @@ body{
     position: center;
 }
 
-h1, h2{
+h1{
+	color:white;
+	text-align:center;
+	color:#fff;
+	margin-top:70px;
+}
+
+
+h2{
 	color: white;
 	text-align: center;
    	color: #fff;
