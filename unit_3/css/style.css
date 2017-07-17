@@ -2,18 +2,16 @@ body{
 	background-color:black;
 	background-size:cover;
 	background: url("https://media2.equinox.com/cms/images/b9890a47-1abe-4771-8899-2322f7470f99/en-us/1.jpg");
+	background-color:black; 
+    height: 600px;
+    background-position: center;
+    background-size: cover;
+    position: center;
 }
 
-h1, p{
+h1, h2{
 	color: white;
 	text-align: center;
    	color: #fff;
    	font-family: Helvetica;
 }
-#heroimage{
-    background-color:black; 
-    height: 600px;
-    background-position: center;
-    background-size: cover;
-    position: center;
- }
