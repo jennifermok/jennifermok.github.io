@@ -4,7 +4,6 @@ body{
 .abovethefold{
 	background-image:url(images/image1.jpg);
     background-size:cover;
-    max-width:100%
     text-align:center;
 }
 h1{
