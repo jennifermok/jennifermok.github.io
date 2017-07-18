@@ -2,7 +2,12 @@ body{
 	background-color:black;
 }
 #top{
-	height:30px;
+	height:20px;
+}
+#heroimage{
+	background-size:cover;
+    height:500px;
+    max-width:100%
 }
 .abovethefold{
 	background-image:cover; 
