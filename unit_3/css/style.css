@@ -1,14 +1,17 @@
-#abovethefold{
+body{
+	background-color:black;
+}
+#top{
+	height:30px;
+}
+.abovethefold{
 	background-size:cover;
 	background: url("https://media2.equinox.com/cms/images/b9890a47-1abe-4771-8899-2322f7470f99/en-us/1.jpg");
 	background-color:black; 
     height:500px;
     background-position:center;
     background-size:cover;
-}
-body{
-	background-color:black;
-	margin:5px;
+    max-width:100%
 }
 
 h1{
