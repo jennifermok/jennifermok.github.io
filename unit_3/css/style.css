@@ -4,8 +4,7 @@ body{
     background-size:cover;
     max-width:100%
 }
-.abovethefold{
-    margin-top:20px;
+#abovethefold{
 	color:white;
 	color:#fff;
 	text-align:center;
