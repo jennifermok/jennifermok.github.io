@@ -2,25 +2,18 @@ body{
 	background-color:black;
 }
 .abovethefold{
-	background-image: url(/images/image1.jpg);
+	background-image:url(/images/image1.jpg);
     background-size:cover;
-    height:500px;
     max-width:100%
     margin-top:20px;
-}
-h1{
 	color:white;
 	text-align:center;
-	margin-top: 50px;
 	color:#fff;
 	font-family: Helvetica;
-	font-weight:800;
+}
+h1{
+font-weight:800;
 }
 h2{
-	color: white;
-	text-align: center;
-   	color: #fff;
-  	margin-top:200px;
-   	font-family: Helvetica;
    	font-style:italic;
 }
