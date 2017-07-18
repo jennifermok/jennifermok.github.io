@@ -4,13 +4,13 @@ body{
 .abovethefold{
 	background-image:url(images/image1.jpg);
     background-size:cover;
+    max-width:100%;
     text-align:center;
+    color:#FFFCFA;
 }
 h1{
 	font-weight:800;
-	color:#FFFCFA;
 }
 h2{
    	font-style:italic;
-   	color:#FFFCFA;
 }
