@@ -1,6 +1,9 @@
+body{
+	background-color:black;
+}
 .abovethefold{
 	background-color:black;
-	background-image:url(/images/image1.jpg);
+	background-image:url(images/image1.jpg);
     background-size:cover;
     max-width:100%
 	color:white;
