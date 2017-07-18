@@ -1,5 +1,4 @@
-#abovethefold, body{
-	background-color:black;
+#abovethefold{
 	background-size:cover;
 	background: url("https://media2.equinox.com/cms/images/b9890a47-1abe-4771-8899-2322f7470f99/en-us/1.jpg");
 	background-color:black; 
@@ -8,6 +7,9 @@
     background-size: cover;
     position: center;
 }
+body{
+	background-color:black;
+}
 
 h1{
 	color:white;
@@ -15,7 +17,6 @@ h1{
 	color:#fff;
 	font-family: Helvetica;
 	font-weight:800;
-
 }
 
 
