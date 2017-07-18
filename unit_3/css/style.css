@@ -5,6 +5,7 @@ body{
 	height:30px;
 }
 .abovethefold{
+	background-image:cover; 
 	background-size:cover;
     height:500px;
     max-width:100%
