@@ -15,6 +15,7 @@ h1{
 	color:#fff;
 	margin-top:200px;
 	font-family: Helvetica;
+	font-weight:800;
 
 }
 
@@ -25,4 +26,5 @@ h2{
    	color: #fff;
   	margin-top:200px;
    	font-family: Helvetica;
+   	font-style:italic;
 }
