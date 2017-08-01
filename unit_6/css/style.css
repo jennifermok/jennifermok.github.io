@@ -1,8 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Libre+Baskerville|PT+Serif');
-
+* { margin:0; padding:0; box-sizing:border-box;}
 body{
 	background-color:black;
-    margin:0px;
 }
 .abovethefold{
 	background-image:url(../images/image1.jpg);
@@ -42,17 +41,19 @@ nav{
 #left {
     background-color: violet;
     border: 1px black solid;
-    padding: 20px;
+    padding: 2em;
     float: left;
-    width: 30%;
+    width: 31.33%;
+    margin: 1%;
 }
 
 #right {
     background-color: pink;
     border: 1px black solid;
-    padding: 20px;
-    float: right;
-    width: 62%;
+    padding: 2em;
+    float: left;
+    width: 64.66%;
+    margin: 1%;
 }
 .clearfix:after{
     visibility: hidden;
@@ -64,7 +65,7 @@ nav{
 }
 aside{
     background-color:#FFC675;
-    border:1px black solid;
+    /* border:1px black solid; */
     padding: 20px;
 }
 footer{
