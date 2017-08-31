@@ -3,10 +3,16 @@
 body{
     background-color:white;
 }
-.inner_header{
+.inner_header, .inner_header2{
     font-family:'Libre Baskerville', serif;
     border:none;
-    padding: .5em;
+    padding: .70em 1em;
+}
+.inner_header{
+    float:left;
+}
+.inner_header2{
+    float:right;
 }
 .hero{
     background-image:url(../images/image1.jpg);
@@ -73,7 +79,7 @@ h1{
     font-family:'Libre Baskerville', serif;
     font-weight: 600;
     font-size: 10em;
-    margin:0px;
+    margin:0;
 }
 h2{
     font-family:'Libre Baskerville', serif;
@@ -90,11 +96,6 @@ p{
     font-family: 'PT Serif', serif;
     font-size: 1em;
 }
-header {
-    background-color:#FFED74;
-    border:1px black solid;
-    padding: 20px;
-}
 ul {
     list-style-type:none;
     margin: 0;
@@ -108,7 +109,6 @@ li a{
     font-weight: 150;
     text-decoration: none;
     text-align: center;
-    padding: .70em 1em;
 }
 a{
     display: block;
@@ -120,17 +120,26 @@ a{
 a:hover{
     text-decoration:underline;
 }
+img:hover{
+    opacity: 0.5;
+}
+div/section{
+    background-color:#FFE2B8;
+    border:1px black solid;
+    padding: 20px;
+}
 footer{
     background-color:#cfd8dc;
     text-align: center;
     border:1px black solid;
     padding: .3em;
 }
-@media only screen and (max-width: 800px){
-    .three_column{
-        float: none;
-        text-align: center;
-        width: 60%;
-        margin: 0 auto;
+@media only screen and (max-width:480px) {
+    .inner_header, .inner_header2{
+        float:none;
+        text-align:center;
+        width:90%;
+        padding:1%;
+        margin:0 auto;
     }
 }
