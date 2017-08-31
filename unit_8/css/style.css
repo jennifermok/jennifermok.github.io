@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css?family=Libre+Baskerville|PT+Serif');
+* { margin:0; padding:0; box-sizing:border-box;}
+body{
+	background-color:white;
+}
+.inner_header{
+    font-family:'Libre Baskerville', serif;
+    border:none;
+    padding: .5em;
+}
+.hero{
+	background-image:url(../images/image1.jpg);
+    background-size:cover;
+    background-position:center;
+    height: 100%;
+    padding: 7.25em;
+    clear:both;
+    text-align:center;
+    color:#FFFCFA;
+}
+.hero2{
+    background-image:url(../images/image2.jpg);
+    background-size:cover;
+    background-position:center;
+    height: 100%;
+    padding: 3em;
+    clear:both;
+    text-align:center;
+    color:#FFFCFA;
+}
+.classicalPilates{
+    border:none;
+    padding: 5em;
+    text-align:center;
+    clear:both;
+}
+.three_column{
+    text-align: center;
+}
+.three_column img{
+    width: 100%;
+    height: 100%;
+    margin: 3%;
+}
+#Instructors {
+    padding: 2em;
+    float: left;
+    width: 32.33%;
+}
+#ClassesOffered {
+    padding: 2em;
+    float: left;
+    width: 32.33%;
+}
+#Pricing {
+    padding: 2em;
+    float: left;
+    width: 32.33%;
+}
+.clearfix:after{
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: "";
+    clear: both;
+    height:0;
+}
+.blog{
+    text-align:center;
+    border:none;
+}
+h1{
+    font-family:'Libre Baskerville', serif;
+    font-weight: 600;
+    font-size: 10em;
+    margin:0px;
+}
+h2{
+    font-family:'Libre Baskerville', serif;
+    font-size: 3em;
+    border:none;
+    padding: .5em;
+}
+h3{
+   	font-style:italic;
+    font-family: 'PT Serif', serif;
+    font-size: 2em;
+}
+p{
+    font-family: 'PT Serif', serif;
+    font-size: 1em;
+}
+header {
+    background-color:#FFED74;
+    border:1px black solid;
+    padding: 20px;
+}
+ul {
+    list-style-type:none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+li a{
+    display: block;
+    color: inherit;
+    font-size: 1.25em;
+    font-weight: 150;
+    text-decoration: none;
+    text-align: center;
+    padding: .70em 1em;
+}
+a{
+    display: block;
+    color: inherit;
+    text-decoration: none;
+    text-align: center;
+    padding: .5em;
+}
+a:hover{
+    text-decoration:underline;
+}
+footer{
+    background-color:#cfd8dc;
+    text-align: center;
+    border:1px black solid;
+    padding: .3em;
+}
+@media only screen and (max-width: 800px){
+    .three_column{
+        float: none;
+        text-align: center;
+        width: 60%;
+        margin: 0 auto;
+    }
+}
